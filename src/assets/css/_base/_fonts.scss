@@ -20,5 +20,12 @@ Example:
     src: url(../fonts/AngelineVintage.woff) format('woff'),
      url(../fonts/AngelineVintage.woff2) format('woff2');
 }
-
+@font-face {
+    font-family: 'Bold';
+    src: url(../../fonts/OpenSans-Bold.ttf) format('bold');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../../fonts/Poppins-Bold.ttf) format('bold');
+}
 
