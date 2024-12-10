@@ -1,5 +1,5 @@
 .list{
-    height: 125px;
+    height: 130px;
     filter: drop-shadow(0px 4px 15px rgba(202,202,202,0.15));   
     background-color: #03a9f3;
     margin-top: -75px;
@@ -8,17 +8,11 @@
     justify-content: space-between;
 }
 .list h1{
-    font-size: 13px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Poppins";
     text-transform: uppercase;
-}
-.list h2{
-    font-size: 13px;
-    color: #656a70;
-    font-weight: 400;
-    font-family: "Poppins";
 }
 
 .list .type,
@@ -28,15 +22,39 @@
     height: 50px;
 }
 
-.list .continue{
+.list .number table, td, tr{
+    width: 250px;
+    height: 38px;
+    border-radius: 3px;
+    filter: drop-shadow(0px 1px 2.5px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    border: 1px solid #d8dadb;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list .number span{
     font-size: 14px;
-    color: #ffffff;
-    font-weight: 500;
+    color: #656a70;
+    font-weight: 400;
     font-family: "Poppins";
-    text-align: center;
+}
+
+.list .continue{
     width: 210px;
     height: 50px;
     border-radius: 3px;
     background-color: #0187c3;
     border: 1px solid #0187c3;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.list .continue h2{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
 }
