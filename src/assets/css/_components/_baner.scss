@@ -1,6 +1,12 @@
 .baner{
-    background-image: url(../../img/img-cloud.png);
+    background-color: #d3e4f6;
     height: 630px;
+}
+
+.baner .bg_baner{
+    position: absolute;
+    height: 630px;
+    opacity: 0.6;
 }
 
 .baner h1{
@@ -20,6 +26,7 @@
 
 .baner .progress{
     height: 3px;
+    background-color: #8b8e90;
 }
 .baner .progress-bar{
     width: 15%;

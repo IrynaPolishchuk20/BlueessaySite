@@ -1,11 +1,13 @@
 .list{
-    height: 135px;
+    height: 125px;
     filter: drop-shadow(0px 4px 15px rgba(202,202,202,0.15));   
     background-color: #03a9f3;
     margin-top: -75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .list h1{
-    margin-top: 25px;
     font-size: 13px;
     color: #ffffff;
     font-weight: 500;
@@ -20,8 +22,9 @@
 }
 
 .list .type,
-.list .write{
-    width: 210px;
+.list .write,
+.list .urgency{
+    width: 250px;
     height: 50px;
 }
 
@@ -36,5 +39,4 @@
     border-radius: 3px;
     background-color: #0187c3;
     border: 1px solid #0187c3;
-    margin-top: 30px;
 }
