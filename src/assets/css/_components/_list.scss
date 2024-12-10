@@ -1,11 +1,11 @@
 .list{
-    height: 130px;
+    height: 120px;
     filter: drop-shadow(0px 4px 15px rgba(202,202,202,0.15));   
     background-color: #03a9f3;
     margin-top: -75px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .list h1{
     font-size: 16px;
@@ -23,12 +23,12 @@
 }
 
 .list .number table, td, tr{
-    width: 250px;
-    height: 38px;
+    width: 200px;
+    height: 37px;
     border-radius: 3px;
     filter: drop-shadow(0px 1px 2.5px rgba(0,0,0,0.1));
     background-color: #ffffff;
-    border: 1px solid #d8dadb;
+    border: 1.5px solid #d8dadb;
     border-collapse: collapse;
     display: flex;
     align-items: center;
@@ -48,8 +48,8 @@
     border-radius: 3px;
     background-color: #0187c3;
     border: 1px solid #0187c3;
-    margin-left: 70px;
-    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 16px;
 }
 
 .list .continue h2{
