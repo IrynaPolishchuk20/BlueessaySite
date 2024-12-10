@@ -1,0 +1,49 @@
+.baner{
+    background-image: url(../../img/img-cloud.png);
+    height: 630px;
+}
+
+.baner h1{
+    font-size: 47px;
+    letter-spacing: -1px;
+    color: #03a9f4;
+    font-family: "Poppins";
+}
+
+.baner h2{
+    font-size: 47px;
+    letter-spacing: -1px;
+    color: black;
+    font-family: "Poppins";
+}
+
+.baner .progress{
+    height: 3px;
+}
+.baner .progress-bar{
+    width: 15%;
+    background-color:#f75d2d;
+}
+
+.baner .baner_text{
+    width: 557px;
+    height: 338px;  
+    font-size: 20px;
+    line-height: 30px;
+    color: #656a70;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.baner .place{
+    width: 220px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #f75d2d;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
