@@ -39,6 +39,7 @@
     height: 50px;
     border-radius: 3px;
     background-color: #f75d2d;
+    border: 2px solid #f75d2d;
     font-size: 14px;
     text-transform: uppercase;
     color: #ffffff;
@@ -49,5 +50,6 @@
 }
 .baner .girl{
     position: absolute;
-    margin-top: -245px;
+    margin-top: -173px;
+    z-index: 1;
 }
