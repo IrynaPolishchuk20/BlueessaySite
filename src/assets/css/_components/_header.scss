@@ -1,13 +1,9 @@
 .header{
-    height: 80px;
+    height: 100px;
     filter: drop-shadow(0px 1px 2.5px rgba(0,0,0,0.1));
     background-color: #03a9f3;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 header .menu ul{
     list-style-type: none;
@@ -34,7 +30,10 @@ header .menu ul li a{
     text-decoration: none;
     padding: 13px 20px;
     position: relative;
+    display: flex;
+    align-items: center;
 }
+
  header .sing{
     font-size: 12px;
     letter-spacing: 0px;
@@ -43,6 +42,7 @@ header .menu ul li a{
     font-weight: 600;
     font-family: "Poppins";
     text-align: center;
+    opacity: 0.8;
     width: 100px;
     height: 40px;
     border-radius: 3px;
@@ -62,4 +62,8 @@ header .menu ul li a{
     font-weight: 600;
     font-family: "Poppins";
     text-align: center;
+ }
+
+ header .burger{
+    height: 40px;
  }
