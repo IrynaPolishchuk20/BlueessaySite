@@ -3,6 +3,8 @@
 @import "./list";
 @import "./welcom";
 @import "./advantages";
+@import "./howIt";
+
 
 
 
@@ -17,6 +19,3 @@ header{
     font-family: $base_font;
 }
 
-.body{
-    overflow-x: hidden;
-}

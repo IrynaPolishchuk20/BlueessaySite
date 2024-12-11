@@ -4,19 +4,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
+    margin-top: 40px;
 }
 
 
 .advantages{ 
-
-    h1{
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Poppins";
-    text-align: center;
-    }
     h2{
+        padding-top: 100px;
         font-size: 35px;
         color: #ffffff;
         font-family: "Poppins";
@@ -64,6 +58,7 @@
         display: flex;
         align-items: center;
         justify-content:  space-around;
+        padding-top: 55px;
     }
 }
 
@@ -84,10 +79,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
 
     .place_an{
         display: flex;
         justify-content: center;
+        padding-bottom: 85px;
+        padding-top: 50px;
     }
 }
