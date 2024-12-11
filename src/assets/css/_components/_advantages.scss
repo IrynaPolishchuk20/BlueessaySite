@@ -6,82 +6,88 @@
     position: absolute;
 }
 
-.advantages h1{
+.advantages{ 
+    
+    h1{
     margin-top: 40px;
     font-size: 18px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Poppins";
     text-align: center;
+    }
+    h2{
+        font-size: 35px;
+        color: #ffffff;
+        font-family: "Poppins";
+        text-align: center;
+    }
 }
 
-.advantages h2{
-    font-size: 35px;
-    color: #ffffff;
-    font-family: "Poppins";
-    text-align: center;
+.advantages .bocks{ 
+    h3{
+        font-size: 20px;
+        margin-top: 10px;
+        color: #1e2021;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-align: center;
+    }
+    img{
+            height: 100px;
+            width: 100px;
+    }
+
 }
 
-.advantages .bocks h3{
-    font-size: 20px;
-    margin-top: 10px;
-    color: #1e2021;
-    font-weight: 500;
-    font-family: "Poppins";
-    text-align: center;
+.advantages{ 
+    .bock{
+        width: 360px;
+        height: 312px;
+        filter: drop-shadow(0px 4px 10px rgba(202,202,202,0.25));
+        background-color: #ffffff; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bocks{
+        display: flex;
+        align-items: center;
+        justify-content:  space-around;
+    }
 }
 
-.advantages .bocks p{
-    font-size: 18px;
-    line-height: 22px;
-    color: #51555a;
-    font-weight: 400;
-    font-family: "Poppins";
-    text-align: center;
-}
-.advantages .bocks img{
-    height: 100px;
-    width: 100px;
-}
+.advantages{  
+    button{
+        width: 210px;
+        height: 50px;
+        border-radius: 3px;
+        background-color: #0187c3;
+        border: 1px solid #0187c3;
+        margin-left: 50px;
+        margin-top: 16px;
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.advantages .bocks .bock{
-    width: 360px;
-    height: 312px;
-    filter: drop-shadow(0px 4px 10px rgba(202,202,202,0.25));
-    background-color: #ffffff; 
-}
-.advantages .bocks .bock{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.advantages .bocks{
-    display: flex;
-    align-items: center;
-    justify-content:  space-around;
-}
-
-.advantages .place_an button{
-    width: 210px;
-    height: 50px;
-    border-radius: 3px;
-    background-color: #0187c3;
-    border: 1px solid #0187c3;
-    margin-left: 50px;
-    margin-top: 16px;
-    font-size: 22px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Poppins";
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.advantages .place_an{
-    display: flex;
-    justify-content: center;
+    .place_an{
+        display: flex;
+        justify-content: center;
+    }
 }

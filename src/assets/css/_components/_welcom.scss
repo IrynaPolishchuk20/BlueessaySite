@@ -4,24 +4,27 @@
     width: 500px;
     margin-left: 50px;
 }
-.welcom h1{
-    margin-top: 40px;
-    font-size: 18px;
-    color: #0287c3;
-    font-weight: 400;
-    font-family: "Poppins";
+.welcom { 
+    h1{
+        margin-top: 40px;
+        font-size: 18px;
+        color: #0287c3;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    h2{
+        font-size: 35px;
+        color: #1e2021;
+        font-family: "Poppins";
+    }
+
+    .welcom_p{
+        font-size:20px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
 }
 
-.welcom h2{
-    font-size: 35px;
-    color: #1e2021;
-    font-family: "Poppins";
-}
-
-.welcom .welcom_p{
-    font-size:20px;
-    line-height: 22px;
-    color: #51555a;
-    font-weight: 400;
-    font-family: "Poppins";
-}
