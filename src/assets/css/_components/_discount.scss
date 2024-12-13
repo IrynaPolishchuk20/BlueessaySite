@@ -1,0 +1,150 @@
+.discount{
+    height: 555px;
+    background-color: #03a9f3;
+    background-image: url(../../../assets/img/04-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+    h2{
+        padding-top: 100px;
+        font-size: 35px;
+        color: #ffffff;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+}
+.sale{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    .procent{
+        width: 555px;
+        height: 485px;
+        filter: drop-shadow(0px 4px 15px rgba(202,202,202,0.55));
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .procent-element{ 
+                height: 240px;
+                width: 190px;
+                padding: 60px 0px 60px 0px;
+            
+                    h3{
+                        font-size: 35px;
+                        line-height: 40px;
+                        color: #f75e2e;
+                        font-family: "Poppins";
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #51555a;
+                        font-weight: 400;
+                        font-family: "Poppins";
+                        text-align: center;
+                    }
+                    h4{
+                        font-size: 18px;
+                        color: #0287c3;
+                        font-weight: 600;
+                        font-family: "Poppins";
+                        text-align: center;
+                    }
+            }
+            
+    }
+    .our_service{
+        height: 485px;
+        width: 390px;
+        background-color: #03a9f3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            h5{
+                font-size: 25px;
+                letter-spacing: 0px;
+                line-height: 34px;
+                text-transform: uppercase;
+                color: #ffffff;
+                font-weight: 600;
+                font-family: "Poppins";
+                text-align: center;
+            }
+            p{
+                font-size: 18px;
+                letter-spacing: 0px;
+                line-height: 23px;
+                color: #ffffff;
+                font-weight: 400;
+                font-style: italic;
+                font-family: "OpenSans";
+            }
+            // .balloon{
+            //     position: absolute;
+            //     left: 280px;
+            // }
+
+        .service{
+            border-radius: 15px;
+            border: 3px dashed #0287c3;
+            margin: 20px;
+        }
+            
+    }
+}
+.get{
+    height: 210px;
+    width: 280px ;
+    background-color: #0287c3;
+    border-radius: 15px;
+    border: 3px dashed #ffffff;
+    margin: 20px;
+
+    h1{
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        
+    }
+    h6{
+        font-size: 62px;
+        line-height: 57px;
+        color: #e2f55d;
+        font-family: "Poppins";
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+        line-height: 22px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+    }
+    .stars{
+        position: absolute;
+        // left: 160px;
+        
+    }
+    .scissors{
+        position: relative;
+        top: -15px;
+        left: -20px;
+    }
+}
