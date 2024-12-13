@@ -67,44 +67,50 @@
             }
             
     }
-    .our_service{
-        height: 485px;
-        width: 390px;
-        background-color: #03a9f3;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-            h5{
-                font-size: 25px;
-                letter-spacing: 0px;
-                line-height: 34px;
-                text-transform: uppercase;
-                color: #ffffff;
-                font-weight: 600;
-                font-family: "Poppins";
-                text-align: center;
-            }
-            p{
-                font-size: 18px;
-                letter-spacing: 0px;
-                line-height: 23px;
-                color: #ffffff;
-                font-weight: 400;
-                font-style: italic;
-                font-family: "OpenSans";
-            }
-            // .balloon{
-            //     position: absolute;
-            //     left: 280px;
-            // }
+    
+}
 
-        .service{
-            border-radius: 15px;
-            border: 3px dashed #0287c3;
-            margin: 20px;
+.our_service{
+    height: 485px;
+    width: 390px;
+    background-color: #03a9f3;
+    position: relative;
+        h5{
+            font-size: 25px;
+            letter-spacing: 0px;
+            line-height: 34px;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Poppins";
+            text-align: center;
+            margin: 34px 0px 34px;
         }
-            
-    }
+        .service_p{
+            font-size: 18px;
+            letter-spacing: 0px;
+            line-height: 23px;
+            color: #ffffff;
+            font-weight: 400;
+            font-style: italic;
+            font-family: "OpenSans";
+            margin-top: 50px;
+        }
+        
+
+    .service{
+        height: 450px;
+        border-radius: 15px;
+        border: 3px dashed #0287c3;
+        margin: 20px;
+       
+
+        .balloon{
+            position: absolute;
+            left: 290px;
+            bottom: 15px;
+        }
+    }    
 }
 .get{
     height: 210px;
@@ -112,7 +118,9 @@
     background-color: #0287c3;
     border-radius: 15px;
     border: 3px dashed #ffffff;
-    margin: 20px;
+    position: relative;
+    margin: 35px;
+    
 
     h1{
         font-size: 24px;
@@ -121,7 +129,7 @@
         color: #ffffff;
         font-weight: 500;
         font-family: "Poppins";
-        
+        margin-left: 70px;
     }
     h6{
         font-size: 62px;
@@ -130,8 +138,8 @@
         font-family: "Poppins";
         text-align: center;
     }
-    p{
-        font-size: 14px;
+    .get_text{
+        font-size: 16px;
         line-height: 22px;
         color: #ffffff;
         font-weight: 500;
@@ -139,11 +147,12 @@
     }
     .stars{
         position: absolute;
-        // left: 160px;
+        left: 205px;
+        top: -20px;
         
     }
     .scissors{
-        position: relative;
+        position: absolute;
         top: -15px;
         left: -20px;
     }
