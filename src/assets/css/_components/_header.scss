@@ -28,6 +28,10 @@ nav ul li{
     font-weight: 600;
     font-family: Poppins_Regular;
     cursor: pointer;
+    &:hover{
+        color: gold;
+        transition: transform 1s ease;
+    }
 }
 nav ul li::after{
     content: '';
@@ -64,6 +68,10 @@ nav ul li:nth-child(3):after{
     border: 1px solid #0187c3;
     margin-top: 10px;
     margin-right: 20px;
+    &:hover{
+        background-color: #145d80;
+        transition: transform 1s ease;
+    }
  }
 
  header .order{
@@ -81,11 +89,30 @@ nav ul li:nth-child(3):after{
     text-align: center;
     margin-top: 10px;
     margin-right: 20px;
+    &:hover{
+        background-color: #7b3118;
+        border: 2px solid #7b3118;
+        transition: transform 1s ease;
+    }
  }
 
- header .burger{
+ header .burger img{
     height: 35px;
     width: 60px;
     margin-top: 10px;
     margin-right: 20px;
+    cursor: pointer;
  }
+
+ .img_burger{
+    position: relative;
+        .first-image{
+            position: absolute;
+        }
+    &:hover .first-image{
+        opacity: 0;
+        transition: transform 1s ease;
+    }
+ }
+
+ 

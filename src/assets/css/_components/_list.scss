@@ -36,5 +36,9 @@
     font-weight: 500;
     font-family: "Poppins";
     cursor: pointer;
+    &:hover{
+        background-color: #145d80;
+        transition: transform 1s ease;
+    }
 }
 
