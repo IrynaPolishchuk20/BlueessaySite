@@ -58,29 +58,21 @@ footer{
         color: #ffffff;
         font-family: "Museosans";
     }
-    .facebook{
-        margin-right: 10px;
-        &:hover{
-            content: url(../../../assets/img/facebook-hover.png);
-        }
-    }
-    .twitter{
-        margin-right: 10px;
-        &:hover{
-            content: url(../../../assets/img/twitter-hover.png);
-        }
-    }
-    .pinterest{
-        margin-right: 10px;
-        &:hover{
-            content: url(../../../assets/img/pinterest-hover.png);
-        }
-    }
+
+    .facebook,
+    .twitter,
+    .pinterest,
     .google-plus{
-        margin-right: 10px;
-        &:hover{
-            content: url(../../../assets/img/google-plus-hover.png);
+        position: relative;
+        float: left;
+        margin-left: 15px;
+        .first-image{
+            position: absolute;
         }
+            &:hover .first-image{
+                opacity: 0;
+                transition: transform 1s ease;
+            }
     }
     .phone-img,
     .email-img{
