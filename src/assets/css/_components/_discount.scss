@@ -130,6 +130,16 @@
             position: absolute;
             left: 290px;
             bottom: 15px;
+            animation: balloon 15s infinite alternate;
+        }
+        @keyframes balloon {
+            0%{
+                bottom: 15px;
+            }
+            
+            100%{
+                bottom: 350px;
+            }
         }
     }    
 }
@@ -176,11 +186,21 @@
         position: absolute;
         top: -15px;
         left: -20px;
+        animation: a-scissors 15s infinite alternate;
     }
+
+    @keyframes a-scissors{
+        0% {
+            left: -20px;
+        }
+    
+        100% {
+           left: 255px;
+        }
+    }
+
 }
 
 @media screen and (max-width: 991px){
-    .procent{
-        width: 400px;
-    }
+    
 }

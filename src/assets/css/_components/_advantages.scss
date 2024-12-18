@@ -38,6 +38,11 @@
     img{
             height: 100px;
             width: 100px;
+            margin-bottom: 15px;
+            &:hover{
+                transform: scale(1.2);
+                transition: transform 2s ease;
+            }
     }
 
 }

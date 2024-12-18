@@ -42,3 +42,13 @@
     }
 }
 
+@media screen and (max-width: 991px){
+    .list{
+        height: 500px;
+        display: inline;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
