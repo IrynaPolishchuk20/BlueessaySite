@@ -30,26 +30,36 @@ footer{
             }
         }
     }
+
     hr{
-        height: 1px;
+        height: 2px;
         background-color: #ffffff;
         margin-bottom: 40px;
         margin-top: 20px;
     }
-    .section_number{
+
+    .section_number p{
         font-size: 18px;
         color: #ffffff;
         font-weight: 500;
         font-family: "Medium";
         margin-bottom: 30px;
+        &:hover{
+            color: gold;
+            transition: transform 1s ease;
+        }
     }
 
-    .section{
+    .section p{
         font-size: 16px;
         line-height: 28px;
         color: #ffffff;
         font-weight: 400;
         font-family: "Poppins_Regular";
+        &:hover{
+            color: gold;
+            transition: transform 1s ease;
+        }
     }
 
     .copyright{
@@ -74,10 +84,12 @@ footer{
                 transition: transform 1s ease;
             }
     }
+
     .phone-img,
     .email-img{
         float: left;
     }
+
     .phone-text{
         padding-left: 50px;
         font-size: 16px;
@@ -94,6 +106,7 @@ footer{
             font-family: "Bold";
         }
     }
+
     .email{
         padding-left: 50px;
         font-size: 16px;

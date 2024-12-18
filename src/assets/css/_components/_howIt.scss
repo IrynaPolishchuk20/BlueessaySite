@@ -9,7 +9,6 @@
 }
 
 .content{
-    
     h4{
         font-size: 20px;
         text-transform: uppercase;
@@ -48,8 +47,15 @@
     }
 }
 
-// @media screen and (max-width: 991px){
-//     .arrowSimple{
-//         transform: rotate(90deg);
-//     }
-// }
+@media screen and (max-width: 991px){
+    .arrowSimple1{
+        transform: rotate(90deg);
+        clear: none;
+        padding-left: 0px;
+        margin-top: 5px; 
+    }
+    .block{
+        margin-top: 100px;
+        height: 150px;
+    }
+}
