@@ -20,7 +20,7 @@ nav ul{
 }
 nav ul li{
     margin-right: 60px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0px;
     line-height: 16px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ nav ul li:nth-child(3):after{
 }
 
  header .sing{
-    font-size:16px;
+    font-size:14px;
     letter-spacing: 0px;
     text-transform: uppercase;
     color: #ffffff;
@@ -80,7 +80,7 @@ nav ul li:nth-child(3):after{
     border-radius: 3px;
     border: 2px solid #f75d2d;
     background-color: #f75e2d;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0px;
     text-transform: uppercase;
     color: #ffffff;
@@ -97,8 +97,8 @@ nav ul li:nth-child(3):after{
  }
 
  header .burger img{
-    height: 35px;
-    width: 60px;
+    height: 25px;
+    width: 50px;
     margin-top: 10px;
     margin-right: 20px;
     cursor: pointer;
@@ -114,5 +114,38 @@ nav ul li:nth-child(3):after{
         transition: transform 1s ease;
     }
  }
+
+ @media screen and (min-width: 1200px){
+    .phone_logo{
+        display: none;
+    }
+    .uk-button-group{
+        display: none;
+    }
+}
+
+ @media screen and (max-width: 1199px){
+    .logo{
+        display: none;
+    }
+    .phone_logo{
+        float: left;
+    }
+    .uk-button-group{
+        display: none;
+    }
+}
+
+ @media screen and (max-width: 991px){
+    nav ul li{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .phone_logo{
+        float: left;
+    }
+}
 
  
