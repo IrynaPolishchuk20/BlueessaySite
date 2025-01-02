@@ -1,10 +1,15 @@
 .welcom { 
     margin-top: 40px;
+    padding-bottom: 100px;
+
 
     h2{
-        font-size: 35px;
+        font-size: 40px;
         color: #1e2021;
-        font-family: "Poppins";
+        font-weight: 900;
+        font-family: 'Bold';
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .welcom_p{
@@ -12,7 +17,13 @@
         line-height: 22px;
         color: #51555a;
         font-weight: 400;
-        font-family: "Poppins";
+        font-family: 'Regular';
     }
 }
-
+@media screen and (max-width: 991px){
+    .welcom_img{
+    height: 350px;
+    width: 400px;
+   }
+   
+}

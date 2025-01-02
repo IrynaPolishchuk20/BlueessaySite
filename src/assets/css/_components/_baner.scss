@@ -1,10 +1,20 @@
 .baner{
-    background-color: e6f7fe;
+    background-color: #e6f7fe;
     height: 630px;
     background-image: url(../../../assets/img/img-cloud.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-repeat: repeat-x;
     background-position: center right;
+    animation: moveBackground 25s linear infinite;
+
+    @keyframes moveBackground {
+        0% {
+            background-position: 0 bottom;
+        }
+        100% {
+            background-position: 100% bottom;
+        }
+    }
 }
 
 .baner h1{

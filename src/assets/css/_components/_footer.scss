@@ -88,10 +88,12 @@ footer{
     .phone-img,
     .email-img{
         float: left;
+        width: 30px;
+        height: 30px;
     }
 
     .phone-text{
-        padding-left: 50px;
+        padding-left: 35px;
         font-size: 16px;
         line-height: 5px;
         color: #ffffff;
@@ -108,13 +110,12 @@ footer{
     }
 
     .email{
-        padding-left: 50px;
+        padding-left: 10px;
         font-size: 16px;
         line-height: 5px;
         color: #ffffff;
         font-weight: 500;
         font-family: "Regular";
-
         .number{
             font-size: 16px;
             line-height: 16px;
@@ -124,4 +125,10 @@ footer{
         }
     }
 
+}
+
+@media screen and (max-width: 991px){
+   hr{
+    display: none;
+   }
 }

@@ -60,10 +60,8 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
         gap: 20px; 
+        display: flex;
     }
-
-    
-
     .list .type,
     .list .write,
     .list .urgency,
@@ -78,3 +76,5 @@
         margin-bottom: 15px;
     }
 }
+
+ 

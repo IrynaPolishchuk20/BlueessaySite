@@ -2,10 +2,20 @@
     height: 555px;
     background-color: $bg-color-blue;
     background-image: url(../../../assets/img/04-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     position: relative;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-position: center right;
+    animation: moveBackground 25s linear infinite;
+
+    @keyframes moveBackground {
+        0% {
+            background-position: 0 bottom;
+        }
+        100% {
+            background-position: 100% bottom;
+        }
+    }
     
     h2{
         padding-top: 100px;
@@ -200,14 +210,14 @@
         }
         25% {
             top: -15px;
-            left: calc(100% - 20px); /* Віднімаємо ширину елемента */
+            left: calc(100% - 20px); 
             transform: rotate(90deg);
         }
         49%{
             transform: rotate(90deg);
         }
         50% {
-            top: calc(100% - 15px); /* Віднімаємо висоту елемента */
+            top: calc(100% - 15px); 
             left: calc(100% - 20px);
             transform: rotate(180deg);
         }
