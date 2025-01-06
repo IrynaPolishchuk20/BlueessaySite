@@ -23,6 +23,15 @@
     letter-spacing: -1px;
     color: #03a9f4;
     font-family: "Poppins";
+    @media screen and (max-width: 992px){
+        font-size: 35px;
+    }
+    @media screen and (max-width: 400px){
+        font-size: 30px;
+    }
+    @media screen and (max-width: 313px){
+        font-size: 20px;
+    }
 }
 
 .baner h2{
@@ -30,6 +39,15 @@
     letter-spacing: -1px;
     color: black;
     font-family: "Poppins";
+    @media screen and (max-width: 992px){
+        font-size: 35px;
+    }
+    @media screen and (max-width: 400px){
+        font-size: 30px;
+    }
+    @media screen and (max-width: 313px){
+        font-size: 20px;
+    }
 }
 
 .baner .progress{
