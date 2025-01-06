@@ -3,6 +3,9 @@ footer{
     background-color: $bg-color-blue;
     padding: 20px 0 20px 0;
     margin-top: 50px;
+    @media screen and (max-width: 576px){
+        text-align: center;
+    }
     .logo{
         float: left;
     }
@@ -67,29 +70,46 @@ footer{
         line-height: 21px;
         color: #ffffff;
         font-family: "Museosans";
-    }
-
-    .facebook,
-    .twitter,
-    .pinterest,
-    .google-plus{
-        position: relative;
-        float: left;
-        margin-left: 15px;
-        .first-image{
-            position: absolute;
+        @media screen and (max-width: 576px){
+            display: flex;
+            justify-content: center;
         }
-            &:hover .first-image{
-                opacity: 0;
-                transition: transform 1s ease;
-            }
     }
 
+    .link-img{
+        padding-bottom: 20px;
+            .facebook,
+            .twitter,
+            .pinterest,
+            .google-plus{
+                position: relative;
+                float: left;
+                margin-left: 15px;
+                .first-image{
+                    position: absolute;
+                }
+                    &:hover .first-image{
+                        opacity: 0;
+                        transition: transform 1s ease;
+                    }
+            }
+            @media screen and (max-width: 576px){
+                display: flex;
+                justify-content: center;
+            }
+
+    }
     .phone-img,
     .email-img{
         float: left;
         width: 30px;
         height: 30px;
+    }
+    .footer-phone{
+        @media screen and (max-width: 576px){
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .phone-text{
